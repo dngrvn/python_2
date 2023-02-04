@@ -11,7 +11,7 @@ def InputNumbers(inputText):
             number = float(input(f"{inputText}"))
             is_OK = True
         except ValueError:
-            print("Это не число!")
+            print("Ошибка")
     return number
 
 
